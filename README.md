@@ -1,1 +1,1 @@
-# GigaCode-Embeddings
+# MegaCode-Embeddings
