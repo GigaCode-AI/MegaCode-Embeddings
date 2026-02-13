@@ -1,0 +1,6 @@
+# @package _global_
+model:
+  _target_: src.retrievers.RetrieverVLLM
+  model_dir: infly/inf-retriever-v1
+  eos_token_id: 151643  # verified - same as qwen3-emb
+query_prefix: "Instruct: Given a query, retrieve a relevant code snippet.\nQuery: "  # same instruction as qwen3-embedding
