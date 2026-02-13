@@ -1,0 +1,12 @@
+python annotate.py \
+  --input_paths="retrieval_predictions/*/*" \
+  --pretrained_dir="Qwen/Qwen3-32B" \
+  --temp_dir="$(mktemp -d)" \
+  --answer_key="answer-qwen3-32b-think" \
+  --k=10 \
+  --nproc=4 \
+  --tp_size=2 \
+  --max_tokens_query=64 \
+  --max_tokens_code=2048 \
+  --max_model_len=4096 \
+  --max_new_tokens=1024

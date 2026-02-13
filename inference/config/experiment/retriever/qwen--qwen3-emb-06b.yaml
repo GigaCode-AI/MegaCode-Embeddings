@@ -1,0 +1,6 @@
+# @package _global_
+model:
+  _target_: src.retrievers.RetrieverVLLM
+  model_dir: Qwen/Qwen3-Embedding-0.6B
+  eos_token_id: 151643
+query_prefix: "Instruct: Given a query, retrieve a relevant code snippet.\nQuery: "

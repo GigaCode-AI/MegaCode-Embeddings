@@ -1,0 +1,6 @@
+# @package _global_
+model:
+  _target_: src.retrievers.RetrieverTfidf
+  analyzer:
+    _target_: hydra.utils.get_method
+    path: src.retrievers.analyzer_v2

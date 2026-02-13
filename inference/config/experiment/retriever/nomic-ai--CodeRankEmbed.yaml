@@ -1,0 +1,5 @@
+# @package _global_
+model:
+  _target_: src.retrievers.RetrieverCornStack
+  pretrained_dir: nomic-ai/CodeRankEmbed
+query_prefix: "Represent this query for searching relevant code: "

@@ -1,0 +1,12 @@
+hydra:
+  run:
+    dir: hydra_outputs/${hydra.job.name}/${now:%Y-%m-%d_%H-%M-%S}
+
+model: ???
+data_path: ???
+output_path: ???
+query_prefix: ""
+passage_prefix: ""
+max_tokens_query: 64
+max_tokens_code: 512
+k: 10

@@ -1,0 +1,6 @@
+# @package _global_
+model:
+  _target_: src.retrievers.RetrieverJinaV4
+  pretrained_dir: jinaai/jina-embeddings-v4-vllm-code
+query_prefix: "Query: "
+passage_prefix: "Passage: "

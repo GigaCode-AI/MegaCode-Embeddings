@@ -1,0 +1,4 @@
+# @package _global_
+model:
+  _target_: src.retrievers.RetrieverJinaV2
+  pretrained_dir: jinaai/jina-embeddings-v2-base-code
