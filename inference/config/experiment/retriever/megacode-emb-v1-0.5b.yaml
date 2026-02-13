@@ -1,5 +1,5 @@
 # @package _global_
 model:
   _target_: src.retrievers.RetrieverVLLM
-  model_dir: gigacode-emb-v1-7b
+  model_dir: megacode-emb-v1-0.5b
   eos_token_id: 151643

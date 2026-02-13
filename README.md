@@ -4,7 +4,7 @@
 uv sync
 ```
 
-1. Unpack models; change `model.model_dir` in `inference/config/experiment/retriever/gigacode-emb*.yaml`
+1. Unpack models; change `model.model_dir` in `inference/config/experiment/retriever/megacode-emb*.yaml`
 2. Unpack `benchmarks.zip`
 
 # Training
